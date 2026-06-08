@@ -4,19 +4,19 @@ from PIL import Image
 # --- GENERAL SETTINGS ---
 PAGE_TITLE = "Digital CV | Jeta Kryeziu"
 PAGE_ICON = ":wave:"
-NAME = "Jeta Kryeziu"
+NAME = "Camazing CATie"
 DESCRIPTION = """
-Data Scientist specializing in spatial-sensor data and data-driven decision-making.
+CATa SCATist specializing in Napping and Purring. With a knack for finding the purr-fect solution to any problem.
 """
 
-EMAIL = "j.kryeziu06@gmail.com"
-LINKEDIN_URL = "https://www.linkedin.com/in/jeta-kryeziu"
+EMAIL = "the_camazing_catie@gmail.com"
+LINKEDIN_URL = "https://www.linkedin.com/in/catie-cata-123456789/"
 
 st.set_page_config(page_title=PAGE_TITLE, page_icon=PAGE_ICON)
 
 # Directly reference files in the assets folder (ensure it exists)
-resume_file = "assets/jeta_cv_12_2024.pdf"
-profile_pic_file = "assets/profile-pic.png"
+resume_file = "assets/cat_cv.pdf"
+profile_pic_file = "assets/profile-pic.jpeg"
 
 with open(resume_file, "rb") as pdf_file:
     PDFbyte = pdf_file.read()
@@ -47,10 +47,10 @@ if page == "Home":
     st.subheader("Experience & Qualifications")
     st.write(
         """
-- ✔️ Extensive experience with spatial-sensor data and algorithm development.
-- ✔️ Skilled in Python (FastAPI, Pandas, Numpy), SQL, DBT, and Airflow.
-- ✔️ Experienced in visualizing and analyzing sensor data to deliver insights.
-- ✔️ Proficient in PowerBI and interactive dashboard development.
+- ✔️ Protected the house from suspicious insects.
+- ✔️ Improved human produc􀆟vity by si􀆫ng on laptops.
+- ✔️ Monitored birds, cars, and neighbors.
+- ✔️ Reported suspicious ac􀆟vity by staring intensely.
 """
     )
 
@@ -59,10 +59,9 @@ if page == "Home":
     st.subheader("Hard Skills")
     st.write(
         """
-- 👩‍💻 Programming: Python (FastAPI, Scikit-learn, Pandas), SQL, DBT
-- 📊 Data Visualization: PowerBI, Streamlit
-- 🗄️ Databases: Snowflake, AWS, PostgreSQL
-- 🤖 Machine Learning: Neural networks, classification algorithms
+- 🐾 Expert in napping techniques and finding the coziest spots.
+- 🐾 Strong communica􀆟on skills: meow, louder meow, drama􀆟c meow
+- 🐾 Skilled in hunting and catching toys, demonstrating agility and precision.
 """
     )
 
@@ -72,7 +71,7 @@ if page == "Home":
     st.write("---")
 
     # --- JOB 1
-    st.write("🚧", "**Data Scientist | TIVE Inc., Prishtina**")
+    st.write("🚧", "Security Assistant")
     st.write("11/2023 - 11/2024")
     st.write(
         """
