@@ -76,95 +76,29 @@ if page == "Home":
     st.write("11/2023 - 11/2024")
     st.write(
         """
-- ► Built classification algorithms for spatial-sensor data using Python (FastAPI), SQL, DBT, and Airflow.
-- ► Analyzed and visualized sensor data trends to support decision-making.
+- ► Patrolled the premises to ensure safety and security.
+- ► Monitored for any unusual activity and reported to the owner.
 """
     )
 
     # --- JOB 2
     st.write("\n")
-    st.write("🚧", "**Data Scientist | Raiffeisen Bank Kosovo, Prishtina**")
+    st.write("🚧", "House Cat")
     st.write("10/2021 - 08/2023")
     st.write(
         """
-- ► Validated ML scorecards in collaboration with Raiffeisen Bank International.
-- ► Forecasted patterns using advanced data science techniques.
-- ► Developed impactful PowerBI dashboards for business insights.
+- ► Provided companionship and emotional support to the household.
+- ► Maintained a clean and organized living space by using the litter box.
 """
     )
 
-    # --- JOB 3
-    st.write("\n")
-    st.write("🚧", "**AI Instructor | OSCE, Prishtina**")
-    st.write("05/2023 (Fixed-term)")
-    st.write(
-        """
-- ► Delivered training on large language models (LLMs) and generative AI.
-- ► Equipped participants with tools to integrate AI in public relations strategies.
-"""
-    )
 
-    # --- JOB 4
-    st.write("\n")
-    st.write("🚧", "**Coding Instructor | BIT Academy, Prishtina**")
-    st.write("05/2022 - 05/2023")
-    st.write(
-        """
-- ► Taught Python, SQL, and Django with applications in data science.
-- ► Guided students in machine learning and data visualization projects.
-- ► Conducted backend development workshops and GUI programming with Tkinter.
-"""
-    )
-
-    # --- JOB 5
-    st.write("\n")
-    st.write("🚧", "**Teaching Assistant | London School of Economics / Kolegji Riinvest, Prishtina**")
-    st.write("10/2022 - 06/2023")
-    st.write(
-        """
-- ► Assisted in teaching Machine Learning and Business Analytics.
-- ► Supported students in building machine learning models and data strategies.
-"""
-    )
-
-    # --- JOB 6
-    st.write("\n")
-    st.write("🚧", "**Data Analyst | Finca Kosovo, Prishtina**")
-    st.write("06/2021 - 10/2021")
-    st.write(
-        """
-- ► Developed and implemented machine learning models for scoring.
-- ► Automated daily reports and created data visualizations for stakeholders.
-"""
-    )
-
-    # --- JOB 7
-    st.write("\n")
-    st.write("🚧", "**Math and IT Teacher | International School of Prishtina, Prishtina**")
-    st.write("09/2015 - 05/2021")
-    st.write(
-        """
-- ► Taught Mathematics, IT, and introductory machine learning.
-- ► Served as Vice Principal, showcasing leadership in curriculum development.
-- ► Instructed robotics and coding with Python and Scratch.
-"""
-    )
 
 elif page == "About":
     st.title("About Me")
     st.write("""
-    I am a data scientist with a strong passion for leveraging insights 
-    from spatial-sensor data to drive meaningful, data-driven decisions. 
-    With extensive experience in Python (FastAPI, Pandas, Numpy), SQL, DBT, and Airflow, 
-    I excel at developing algorithms, building ML pipelines, and crafting robust data solutions. 
-
-    Over the years, I've collaborated with diverse teams, including 
-    financial institutions and educational organizations, 
-    honing my ability to communicate insights effectively. 
-    Beyond my professional pursuits, I enjoy instructing students 
-    and professionals on AI-related topics, enabling them to harness 
-    the transformative power of machine learning and analytics.
-    """)
+Hi there! I'm Camazing CATie, a passionate and dedicated cat with a love for napping and purring. I have a knack for finding the purr-fect solution to any problem, whether it's finding the coziest spot in the house or catching that elusive toy. With my strong communication skills and agility, I'm always ready to provide companionship and support to those around me. When I'm not busy patrolling the premises or lounging in the sun, you can find me exploring new adventures and making new friends. Feel free to connect with me on LinkedIn or drop me an email – I'm always up for a chat about cats, napping techniques, or anything else that piques my interest!
+""")
 
     # Show LinkedIn and Email only on the About page
     st.write("📫", EMAIL)
