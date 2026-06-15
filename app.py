@@ -24,7 +24,7 @@ with open(resume_file, "rb") as pdf_file:
 profile_pic = Image.open(profile_pic_file)
 
 # Sidebar navigation
-page = st.sidebar.radio("Navigate", ["Home", "About"])
+page = st.sidebar.radio("Navigate", ["Home", "About", "Projects"])
 
 if page == "Home":
     # --- HERO SECTION ---
@@ -102,3 +102,21 @@ Hi there! I'm Camazing CATie, a passionate and dedicated cat with a love for nap
     # Show LinkedIn and Email only on the About page
     st.write("📫", EMAIL)
     st.write(f"Feel free to connect with me on [LinkedIn]({LINKEDIN_URL}).")
+
+
+elif page == "Projects":
+    st.title("Projects")
+    st.write("\n")
+    st.write("🐁The Great Mouse Patrol")
+    st.write(
+        "Monitored the house for suspicious mouse activity and completed nightly security checks.")
+
+    st.write("\n")
+    st.write("📍Sunbeam Location Tracker")
+    st.write(
+        "Identified the warmest sunny spots in the house and created an optimized daily nap schedule.")
+    
+    st.write("\n")
+    st.write("📦Cardboard Box Quality Testing")
+    st.write(
+        "Tested boxes of different sizes for comfort, durability, and overall sitting potential.")
