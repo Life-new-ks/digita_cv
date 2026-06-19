@@ -14,5 +14,5 @@ LINKEDIN_URL = (
     "https://www.linkedin.com/in/catie-cata-123456789/"
 )
 
-RESUME_FILE = "/assets/cat_cv.pdf"
-PROFILE_PIC_FILE = "/assets/profile-pic.jpeg"
+RESUME_FILE = "assets/cat_cv.pdf"
+PROFILE_PIC_FILE = "assets/profile-pic.jpeg"
